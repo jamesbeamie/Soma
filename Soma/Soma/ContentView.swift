@@ -9,20 +9,28 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Environment(\.horizontalSizeClass) var sizeClass
+    @Environment(\.managedObjectContext) var moc
+    @FetchRequest(entity: Student.entity(), sortDescriptors: []) var students: FetchedResults<Student>
     var body: some View {
-        if sizeClass == .compact {
-            return AnyView(VStack{
-                Text("Active size Class")
-                Text("Compact")
+        VStack{
+            List{
+                ForEach(students, id: \.id){ student in
+                    Text(student.name ?? "unkown")
+                }
             }
-            .font(.largeTitle))
-        } else {
-            return AnyView(HStack {
-                Text("Active size Class")
-                Text("Regular")
+            Button("Add"){
+                let firstName = ["James", "Jay", "jimmy"]
+                let lastName = ["Kavia", "Burner", "Carager"]
+                
+                let pickedFname = firstName.randomElement()!
+                let pickedLname = lastName.randomElement()!
+                
+                let student = Student(context: self.moc)
+                student.id = UUID()
+                student.name = "\(pickedFname) \(pickedLname)"
+                
+                try? self.moc.save()
             }
-            .font(.largeTitle))
         }
     }
 }
