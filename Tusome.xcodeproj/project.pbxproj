@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8409BFB32419D1CC0039A4C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409BFB22419D1CC0039A4C1 /* AppDelegate.swift */; };
+		8409BFB52419D1CC0039A4C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409BFB42419D1CC0039A4C1 /* SceneDelegate.swift */; };
+		8409BFB82419D1CC0039A4C1 /* Tusome.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8409BFB62419D1CC0039A4C1 /* Tusome.xcdatamodeld */; };
+		8409BFBA2419D1CC0039A4C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409BFB92419D1CC0039A4C1 /* ContentView.swift */; };
+		8409BFBC2419D1CD0039A4C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8409BFBB2419D1CD0039A4C1 /* Assets.xcassets */; };
+		8409BFBF2419D1CD0039A4C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8409BFBE2419D1CD0039A4C1 /* Preview Assets.xcassets */; };
+		8409BFC22419D1CD0039A4C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8409BFC02419D1CD0039A4C1 /* LaunchScreen.storyboard */; };
+		8409BFCD2419D1CD0039A4C1 /* TusomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409BFCC2419D1CD0039A4C1 /* TusomeTests.swift */; };
+		8409BFD82419D1CD0039A4C1 /* TusomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409BFD72419D1CD0039A4C1 /* TusomeUITests.swift */; };
+		8409BFE62419D1E80039A4C1 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409BFE52419D1E80039A4C1 /* AddBookView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8409BFC92419D1CD0039A4C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8409BFA72419D1CC0039A4C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8409BFAE2419D1CC0039A4C1;
+			remoteInfo = Tusome;
+		};
+		8409BFD42419D1CD0039A4C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8409BFA72419D1CC0039A4C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8409BFAE2419D1CC0039A4C1;
+			remoteInfo = Tusome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8409BFAF2419D1CC0039A4C1 /* Tusome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tusome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8409BFB22419D1CC0039A4C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8409BFB42419D1CC0039A4C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8409BFB72419D1CC0039A4C1 /* Tusome.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tusome.xcdatamodel; sourceTree = "<group>"; };
+		8409BFB92419D1CC0039A4C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8409BFBB2419D1CD0039A4C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8409BFBE2419D1CD0039A4C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8409BFC12419D1CD0039A4C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8409BFC32419D1CD0039A4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8409BFC82419D1CD0039A4C1 /* TusomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TusomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8409BFCC2419D1CD0039A4C1 /* TusomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TusomeTests.swift; sourceTree = "<group>"; };
+		8409BFCE2419D1CD0039A4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8409BFD32419D1CD0039A4C1 /* TusomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TusomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8409BFD72419D1CD0039A4C1 /* TusomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TusomeUITests.swift; sourceTree = "<group>"; };
+		8409BFD92419D1CD0039A4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8409BFE52419D1E80039A4C1 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8409BFAC2419D1CC0039A4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8409BFC52419D1CD0039A4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8409BFD02419D1CD0039A4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8409BFA62419D1CC0039A4C1 = {
+			isa = PBXGroup;
+			children = (
+				8409BFB12419D1CC0039A4C1 /* Tusome */,
+				8409BFCB2419D1CD0039A4C1 /* TusomeTests */,
+				8409BFD62419D1CD0039A4C1 /* TusomeUITests */,
+				8409BFB02419D1CC0039A4C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8409BFB02419D1CC0039A4C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8409BFAF2419D1CC0039A4C1 /* Tusome.app */,
+				8409BFC82419D1CD0039A4C1 /* TusomeTests.xctest */,
+				8409BFD32419D1CD0039A4C1 /* TusomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8409BFB12419D1CC0039A4C1 /* Tusome */ = {
+			isa = PBXGroup;
+			children = (
+				8409BFB22419D1CC0039A4C1 /* AppDelegate.swift */,
+				8409BFB42419D1CC0039A4C1 /* SceneDelegate.swift */,
+				8409BFB92419D1CC0039A4C1 /* ContentView.swift */,
+				8409BFBB2419D1CD0039A4C1 /* Assets.xcassets */,
+				8409BFC02419D1CD0039A4C1 /* LaunchScreen.storyboard */,
+				8409BFC32419D1CD0039A4C1 /* Info.plist */,
+				8409BFB62419D1CC0039A4C1 /* Tusome.xcdatamodeld */,
+				8409BFE52419D1E80039A4C1 /* AddBookView.swift */,
+				8409BFBD2419D1CD0039A4C1 /* Preview Content */,
+			);
+			path = Tusome;
+			sourceTree = "<group>";
+		};
+		8409BFBD2419D1CD0039A4C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8409BFBE2419D1CD0039A4C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8409BFCB2419D1CD0039A4C1 /* TusomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8409BFCC2419D1CD0039A4C1 /* TusomeTests.swift */,
+				8409BFCE2419D1CD0039A4C1 /* Info.plist */,
+			);
+			path = TusomeTests;
+			sourceTree = "<group>";
+		};
+		8409BFD62419D1CD0039A4C1 /* TusomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8409BFD72419D1CD0039A4C1 /* TusomeUITests.swift */,
+				8409BFD92419D1CD0039A4C1 /* Info.plist */,
+			);
+			path = TusomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8409BFAE2419D1CC0039A4C1 /* Tusome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8409BFDC2419D1CD0039A4C1 /* Build configuration list for PBXNativeTarget "Tusome" */;
+			buildPhases = (
+				8409BFAB2419D1CC0039A4C1 /* Sources */,
+				8409BFAC2419D1CC0039A4C1 /* Frameworks */,
+				8409BFAD2419D1CC0039A4C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tusome;
+			productName = Tusome;
+			productReference = 8409BFAF2419D1CC0039A4C1 /* Tusome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8409BFC72419D1CD0039A4C1 /* TusomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8409BFDF2419D1CD0039A4C1 /* Build configuration list for PBXNativeTarget "TusomeTests" */;
+			buildPhases = (
+				8409BFC42419D1CD0039A4C1 /* Sources */,
+				8409BFC52419D1CD0039A4C1 /* Frameworks */,
+				8409BFC62419D1CD0039A4C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8409BFCA2419D1CD0039A4C1 /* PBXTargetDependency */,
+			);
+			name = TusomeTests;
+			productName = TusomeTests;
+			productReference = 8409BFC82419D1CD0039A4C1 /* TusomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8409BFD22419D1CD0039A4C1 /* TusomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8409BFE22419D1CD0039A4C1 /* Build configuration list for PBXNativeTarget "TusomeUITests" */;
+			buildPhases = (
+				8409BFCF2419D1CD0039A4C1 /* Sources */,
+				8409BFD02419D1CD0039A4C1 /* Frameworks */,
+				8409BFD12419D1CD0039A4C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8409BFD52419D1CD0039A4C1 /* PBXTargetDependency */,
+			);
+			name = TusomeUITests;
+			productName = TusomeUITests;
+			productReference = 8409BFD32419D1CD0039A4C1 /* TusomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8409BFA72419D1CC0039A4C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = James;
+				TargetAttributes = {
+					8409BFAE2419D1CC0039A4C1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					8409BFC72419D1CD0039A4C1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 8409BFAE2419D1CC0039A4C1;
+					};
+					8409BFD22419D1CD0039A4C1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 8409BFAE2419D1CC0039A4C1;
+					};
+				};
+			};
+			buildConfigurationList = 8409BFAA2419D1CC0039A4C1 /* Build configuration list for PBXProject "Tusome" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8409BFA62419D1CC0039A4C1;
+			productRefGroup = 8409BFB02419D1CC0039A4C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8409BFAE2419D1CC0039A4C1 /* Tusome */,
+				8409BFC72419D1CD0039A4C1 /* TusomeTests */,
+				8409BFD22419D1CD0039A4C1 /* TusomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8409BFAD2419D1CC0039A4C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8409BFC22419D1CD0039A4C1 /* LaunchScreen.storyboard in Resources */,
+				8409BFBF2419D1CD0039A4C1 /* Preview Assets.xcassets in Resources */,
+				8409BFBC2419D1CD0039A4C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8409BFC62419D1CD0039A4C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8409BFD12419D1CD0039A4C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8409BFAB2419D1CC0039A4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8409BFB32419D1CC0039A4C1 /* AppDelegate.swift in Sources */,
+				8409BFB52419D1CC0039A4C1 /* SceneDelegate.swift in Sources */,
+				8409BFBA2419D1CC0039A4C1 /* ContentView.swift in Sources */,
+				8409BFB82419D1CC0039A4C1 /* Tusome.xcdatamodeld in Sources */,
+				8409BFE62419D1E80039A4C1 /* AddBookView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8409BFC42419D1CD0039A4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8409BFCD2419D1CD0039A4C1 /* TusomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8409BFCF2419D1CD0039A4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8409BFD82419D1CD0039A4C1 /* TusomeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8409BFCA2419D1CD0039A4C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8409BFAE2419D1CC0039A4C1 /* Tusome */;
+			targetProxy = 8409BFC92419D1CD0039A4C1 /* PBXContainerItemProxy */;
+		};
+		8409BFD52419D1CD0039A4C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8409BFAE2419D1CC0039A4C1 /* Tusome */;
+			targetProxy = 8409BFD42419D1CD0039A4C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8409BFC02419D1CD0039A4C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8409BFC12419D1CD0039A4C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8409BFDA2419D1CD0039A4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8409BFDB2419D1CD0039A4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8409BFDD2419D1CD0039A4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Tusome/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Tusome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = beamie.Tusome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8409BFDE2419D1CD0039A4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Tusome/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Tusome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = beamie.Tusome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8409BFE02419D1CD0039A4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TusomeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = beamie.TusomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tusome.app/Tusome";
+			};
+			name = Debug;
+		};
+		8409BFE12419D1CD0039A4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TusomeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = beamie.TusomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tusome.app/Tusome";
+			};
+			name = Release;
+		};
+		8409BFE32419D1CD0039A4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TusomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = beamie.TusomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tusome;
+			};
+			name = Debug;
+		};
+		8409BFE42419D1CD0039A4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TusomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = beamie.TusomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tusome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8409BFAA2419D1CC0039A4C1 /* Build configuration list for PBXProject "Tusome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8409BFDA2419D1CD0039A4C1 /* Debug */,
+				8409BFDB2419D1CD0039A4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8409BFDC2419D1CD0039A4C1 /* Build configuration list for PBXNativeTarget "Tusome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8409BFDD2419D1CD0039A4C1 /* Debug */,
+				8409BFDE2419D1CD0039A4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8409BFDF2419D1CD0039A4C1 /* Build configuration list for PBXNativeTarget "TusomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8409BFE02419D1CD0039A4C1 /* Debug */,
+				8409BFE12419D1CD0039A4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8409BFE22419D1CD0039A4C1 /* Build configuration list for PBXNativeTarget "TusomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8409BFE32419D1CD0039A4C1 /* Debug */,
+				8409BFE42419D1CD0039A4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8409BFB62419D1CC0039A4C1 /* Tusome.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8409BFB72419D1CC0039A4C1 /* Tusome.xcdatamodel */,
+			);
+			currentVersion = 8409BFB72419D1CC0039A4C1 /* Tusome.xcdatamodel */;
+			path = Tusome.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8409BFA72419D1CC0039A4C1 /* Project object */;
+}
