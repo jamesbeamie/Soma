@@ -16,7 +16,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             Text("Count:\(books.count)")
-            .navigationBarTitle("Tusome")
+            .navigationBarTitle("Soma")
                 .navigationBarItems(trailing: Button(action: {
                     self.showingAddScreen.toggle()
                 }){
